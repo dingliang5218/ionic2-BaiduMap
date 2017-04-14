@@ -1,0 +1,186 @@
+[
+  {
+    "file": "assets/fonts/ionicons.eot",
+    "hash": "bdf1d30681cf87986c385eea78e8de9a"
+  },
+  {
+    "file": "assets/fonts/ionicons.scss",
+    "hash": "d500900a39e39e0b966a5ed077e97a66"
+  },
+  {
+    "file": "assets/fonts/ionicons.svg",
+    "hash": "d9496a234c81179afbca6bf5959cc30a"
+  },
+  {
+    "file": "assets/fonts/ionicons.ttf",
+    "hash": "74c652671225d6ded874a648502e5f0a"
+  },
+  {
+    "file": "assets/fonts/ionicons.woff",
+    "hash": "81414686e99c00d2921e03dd53c0ab04"
+  },
+  {
+    "file": "assets/fonts/ionicons.woff2",
+    "hash": "311d81961c5880647fec7eaca1221b2a"
+  },
+  {
+    "file": "assets/fonts/noto-sans-bold.ttf",
+    "hash": "a165a42685795361b25593effb32fdb1"
+  },
+  {
+    "file": "assets/fonts/noto-sans-bold.woff",
+    "hash": "ce3d777f2c41cca1494021cfa3fcd72c"
+  },
+  {
+    "file": "assets/fonts/noto-sans-regular.ttf",
+    "hash": "2fd9c16b805724d590c0cff96da070a4"
+  },
+  {
+    "file": "assets/fonts/noto-sans-regular.woff",
+    "hash": "ce8ba1a4ff970db896192c41fc3c96b1"
+  },
+  {
+    "file": "assets/fonts/noto-sans.scss",
+    "hash": "47d5f7264952ccee8cead7b6dcb6d1bd"
+  },
+  {
+    "file": "assets/fonts/roboto-bold.ttf",
+    "hash": "1f4fd7e4df65487f07ba9148f7ca095d"
+  },
+  {
+    "file": "assets/fonts/roboto-bold.woff",
+    "hash": "43183beef21370d8a4b0d64152287eba"
+  },
+  {
+    "file": "assets/fonts/roboto-bold.woff2",
+    "hash": "28d80f43ae4cc35f19e1f1a6ab670f25"
+  },
+  {
+    "file": "assets/fonts/roboto-light.ttf",
+    "hash": "9ff15bd34ea83e4dd3f23c20c7f5090e"
+  },
+  {
+    "file": "assets/fonts/roboto-light.woff",
+    "hash": "7e2d32e7141050d758a38b4ec96390c0"
+  },
+  {
+    "file": "assets/fonts/roboto-light.woff2",
+    "hash": "a826ff848e9f52b1732fed7d154afa97"
+  },
+  {
+    "file": "assets/fonts/roboto-medium.ttf",
+    "hash": "a937e2cae14e68262a45aa91204c2fdf"
+  },
+  {
+    "file": "assets/fonts/roboto-medium.woff",
+    "hash": "0f3b7101a8adc1afe1fbe89775553c32"
+  },
+  {
+    "file": "assets/fonts/roboto-medium.woff2",
+    "hash": "b2c9c262e089411e20689ed393c00796"
+  },
+  {
+    "file": "assets/fonts/roboto-regular.ttf",
+    "hash": "07f8fb6acbabeb10d3fad9ab02d65e0b"
+  },
+  {
+    "file": "assets/fonts/roboto-regular.woff",
+    "hash": "f94d5e5102359961c44a1da1b58d37c9"
+  },
+  {
+    "file": "assets/fonts/roboto-regular.woff2",
+    "hash": "e6b9d54811307f98da62eae992ae05ba"
+  },
+  {
+    "file": "assets/fonts/roboto.scss",
+    "hash": "e7c30075bc0f0b11422bfbdb2236f9e7"
+  },
+  {
+    "file": "assets/icon/favicon.ico",
+    "hash": "0350f4b3a2067110b1e642ee5931a38a"
+  },
+  {
+    "file": "assets/images/arrow-back@2x.png",
+    "hash": "a030014ffea8878d1a58e905189ecad0"
+  },
+  {
+    "file": "assets/images/Avatar@2x.png",
+    "hash": "a3fd28792ffbadbd4ea705cfa575fa7d"
+  },
+  {
+    "file": "assets/images/banner@2x.png",
+    "hash": "a1a2bd86e91d31e683fd6f91c4477a11"
+  },
+  {
+    "file": "assets/images/btn_sound_click@2x.png",
+    "hash": "b87acd06fecdd57c450f5e8681d21d89"
+  },
+  {
+    "file": "assets/images/btn_sound_nomal@2x.png",
+    "hash": "f97997cd0aaf18e744eab4f9c685e071"
+  },
+  {
+    "file": "assets/images/g-search@2x.png",
+    "hash": "c4b3cfd62d4edfa9e7385bcb68ef9438"
+  },
+  {
+    "file": "assets/images/ico_content@2x.png",
+    "hash": "ec2f5d18535dd343323337883e70d62b"
+  },
+  {
+    "file": "assets/images/ico-car@2x.png",
+    "hash": "c6e0c23a9365c583e43880e3178aa385"
+  },
+  {
+    "file": "assets/images/ico-food@2x.png",
+    "hash": "7b699d6615b8a6a7974e292cb844183f"
+  },
+  {
+    "file": "assets/images/ico-hotel@2x.png",
+    "hash": "c1782ef22f38464358750e45830d326c"
+  },
+  {
+    "file": "assets/images/ico-local-product@2x.png",
+    "hash": "5ed9d34fcc83f3dd01c78c55ae70b33d"
+  },
+  {
+    "file": "assets/images/ico-overall-view@2x.png",
+    "hash": "1ac3b77925ef10aea90b2210ccafb906"
+  },
+  {
+    "file": "assets/images/menu_about@2x.png",
+    "hash": "0c88d0b01065e706536a0845e73797b7"
+  },
+  {
+    "file": "assets/images/position@2x.png",
+    "hash": "6a2c78c0b0a0a10d455e4276c18726c9"
+  },
+  {
+    "file": "assets/images/praise@2x.png",
+    "hash": "e63da5d453b401073a1d33ee35aa48fd"
+  },
+  {
+    "file": "assets/images/time@2x.png",
+    "hash": "cbfbff2019de130f12de3cbc2bf25eb9"
+  },
+  {
+    "file": "assets/json/newsAll.json",
+    "hash": "250fe6fb2c16580fbd02ea9e94aa55d3"
+  },
+  {
+    "file": "assets/json/newsList.json",
+    "hash": "3cdbf480d4dabb2b8098c4dd409b588a"
+  },
+  {
+    "file": "index.html",
+    "hash": "667ab8b37ddaf6358020ae87f0d4bb77"
+  },
+  {
+    "file": "manifest.json",
+    "hash": "df9b99468d4bd4cf2fee5d24ed9badbf"
+  },
+  {
+    "file": "service-worker.js",
+    "hash": "ea7d3ae06d88a849ac03dba0f4c0442a"
+  }
+]
