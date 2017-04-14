@@ -1,0 +1,19 @@
+<ion-menu id="filterMenu" #filterMenu [content]="nav" side="right" type="push" enabled="true">
+  <ion-content>
+    <ion-item>
+      <div id="my_head_image_picker">
+        <img id="my_head_image" src="assets/images/Avatar@2x.png" class="my-message-head-image">
+      </div>
+    </ion-item>
+    <ion-list>
+      <button ion-item (click)="showToast('top')">
+        Login
+      </button>
+      <button ion-item (click)="showToast('top')">
+        Signup
+      </button>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #nav [root]="rootPage"></ion-nav>

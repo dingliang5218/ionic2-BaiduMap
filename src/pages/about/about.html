@@ -1,0 +1,263 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <img style="width:25px" src="assets/images/Avatar@2x.png">
+      </button>
+      <button ion-button icon-only (click)="showFilter()" tappable="">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div>
+    <ion-slides #slider pager="true" loop="true" autoplay="2000">
+      <ion-slide>
+        <!--<img src="http://files.ovdream.com/1453095464864.jpg">-->
+        <ion-thumbnail class="top"
+                       [ngStyle]="{ 'background-image': 'url(' + 'http://img02.tooopen.com/images/20141231/sy_78327074576.jpg' + ')'}">
+        </ion-thumbnail>
+      </ion-slide>
+      <ion-slide>
+        <!--<img src="assets/images/banner@2x.png">-->
+        <ion-thumbnail  class="top"
+                       [ngStyle]="{ 'background-image': 'url(' + 'http://img06.tooopen.com/images/20170325/tooopen_sy_203225356543.jpg' + ')'}">
+        </ion-thumbnail>
+      </ion-slide>
+      <ion-slide>
+        <!--<img src="assets/images/banner@2x.png">-->
+        <ion-thumbnail  class="top"
+                       [ngStyle]="{ 'background-image': 'url(' + 'http://img06.tooopen.com/images/20170224/tooopen_sy_199503612842.jpg' + ')'}">
+        </ion-thumbnail>
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+  <div class="flex-six-content">
+    <div class="flex-six" (tap)="fiveSelectType(1)">
+      <img src="assets/images/ico-local-product@2x.png">
+      <p>资讯</p>
+    </div>
+    <div class="flex-six" (tap)="fiveSelectType(2)">
+      <img src="assets/images/ico-local-product@2x.png">
+      <p>资讯</p>
+    </div>
+    <div class="flex-six" (tap)="fiveSelectType(3)">
+      <img src="assets/images/ico-local-product@2x.png">
+      <p>资讯</p>
+    </div>
+    <div class="flex-six" (tap)="fiveSelectType(4)">
+      <img src="assets/images/ico-local-product@2x.png">
+      <p>资讯</p>
+    </div>
+    <div class="flex-six" (tap)="fiveSelectType(5)">
+      <img src="assets/images/ico-local-product@2x.png">
+      <p>资讯</p>
+    </div>
+  </div>
+
+  <div style="background:#f1f1f1 ;height: 13px"></div>
+
+  <div style="height: 35px; line-height: 35px; margin: 0 5px">
+    <img style="vertical-align: middle" src="assets/images/praise@2x.png">
+    <span style="color: gold; vertical-align: middle; font-size: 1.6rem">今日头条</span>
+  </div>
+
+  <div style="position: relative">
+    <ion-slides #slider pager="true" loop="true">
+      <ion-slide>
+        <div>
+          <ion-card *ngFor="let item of hotListOne" (tap)="showNesDetails(item)">
+            <ion-row>
+              <ion-col width-33>
+                <ion-thumbnail class="img-box" [ngStyle]="{ 'background-image': 'url(' + item.image + ')'}">
+                </ion-thumbnail>
+              </ion-col>
+              <ion-col width-67 style="position: relative">
+                <h2 style="text-align: left">{{item.title}}</h2>
+                <div style="position: absolute; bottom: 10px; width: 95% ;height: 30px; line-height: 30px">
+                  <div style="float: left; vertical-align: middle;">
+                    <ion-thumbnail class="usericon" [ngStyle]="{ 'background-image': 'url(' + item.icon + ')'}">
+                    </ion-thumbnail>
+                    <span style="color:#0c60ee">{{item.person}}</span>
+                  </div>
+                  <div style="float: right; vertical-align: middle; color: #999;">
+                    {{item.date}}
+                  </div>
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-card>
+          <div class="morehotseize">
+          </div>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div>
+          <ion-card *ngFor="let item of hotListTwo" (tap)="showNesDetails(item)">
+            <ion-row>
+              <ion-col width-33>
+                <ion-thumbnail class="img-box" [ngStyle]="{ 'background-image': 'url(' + item.image + ')'}">
+                </ion-thumbnail>
+              </ion-col>
+
+              <ion-col width-67 style="position: relative">
+                <h2 style="text-align: left">{{item.title}}</h2>
+                <div style="position: absolute; bottom: 10px; width: 95% ;height: 30px; line-height: 30px">
+                  <div style="float: left; vertical-align: middle">
+                    <ion-thumbnail class="usericon" [ngStyle]="{ 'background-image': 'url(' + item.icon + ')'}">
+                    </ion-thumbnail>
+                    <!--<img src={{item.icon}} class="usericon">-->
+                    <span style="color:#0c60ee">{{item.person}}</span>
+                  </div>
+                  <div style="float: right; vertical-align: middle; color: #999;">
+                    {{item.date}}
+                  </div>
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-card>
+          <div class="morehotseize">
+          </div>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div>
+          <ion-card *ngFor="let item of hotListThree" (tap)="showNesDetails(item)">
+            <ion-row>
+              <ion-col width-33>
+                <ion-thumbnail class="img-box" [ngStyle]="{ 'background-image': 'url(' + item.image + ')'}">
+                </ion-thumbnail>
+              </ion-col>
+
+              <ion-col width-67 style="position: relative">
+                <h2 style="text-align: left">{{item.title}}</h2>
+                <div style="position: absolute; bottom: 10px; width: 95% ;height: 30px; line-height: 30px">
+                  <div style="float: left; vertical-align: middle">
+                    <ion-thumbnail class="usericon" [ngStyle]="{ 'background-image': 'url(' + item.icon + ')'}">
+                    </ion-thumbnail>
+                    <span style="color:#0c60ee">{{item.person}}</span>
+                  </div>
+                  <div style="float: right; vertical-align: middle; color: #999;">
+                    {{item.date}}
+                  </div>
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-card>
+          <div class="morehotseize">
+          </div>
+        </div>
+      </ion-slide>
+    </ion-slides>
+    <div class="morehot" (tap)="showMoreHotNews()">
+      <span style="color:#777777">更多 >></span>
+    </div>
+  </div>
+
+  <div style="background:#f1f1f1 ;height: 13px"></div>
+
+  <div class="servethree">
+    <ion-thumbnail class="threePic"
+                   [ngStyle]="{ 'background-image': 'url(' + 'http://img02.tooopen.com/images/20141231/sy_78327074576.jpg'+ ')'}">
+    </ion-thumbnail>
+
+    <ion-segment [(ngModel)]="mySeg">
+      <ion-segment-button value="info">
+        服务套餐
+      </ion-segment-button>
+      <ion-segment-button value="recom">
+        创业辅导
+      </ion-segment-button>
+      <ion-segment-button value="serve">
+        起航服务
+      </ion-segment-button>
+      <ion-segment-button value="develop">
+        产品研发
+      </ion-segment-button>
+    </ion-segment>
+
+    <div [ngSwitch]="mySeg">
+      <div *ngSwitchCase="'info'" class="mselect-info">
+        <ion-card *ngFor="let item of serveListOne">
+          <ion-row>
+            <ion-col width-33>
+              <ion-thumbnail class="img-box" [ngStyle]="{ 'background-image': 'url(' + item.image + ')'}">
+              </ion-thumbnail>
+            </ion-col>
+            <ion-col width-67 style="position: relative">
+              <h2 style="text-align: left">{{item.title}}</h2>
+              <p style="color: rgba(34, 34, 34, 0.79);">{{item.des}}</p>
+              <div style="position: absolute; bottom: 10px; width: 95% ;height: 30px; line-height: 30px">
+                <div style="float: left; vertical-align: middle;color: orangered">
+                  {{item.price}}
+                </div>
+                <div class="dealcount" style="float: right; vertical-align: middle;color: red">
+                  {{item.number}}
+                </div>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </div>
+
+      <div *ngSwitchCase="'recom'" class="mselect-recom">
+        <ion-card *ngFor="let item of serveListTwo">
+          <ion-row>
+            <ion-col width-33>
+              <ion-thumbnail class="img-box" [ngStyle]="{ 'background-image': 'url(' + item.image + ')'}">
+              </ion-thumbnail>
+            </ion-col>
+
+            <ion-col width-67 style="position: relative">
+              <h2 style="text-align: left">{{item.title}}</h2>
+              <p style="color: rgba(34, 34, 34, 0.79);">
+                {{item.des}}
+              </p>
+              <div style="position: absolute; bottom: 10px; width: 95% ;height: 30px; line-height: 30px">
+                <div style="float: left; vertical-align: middle;color: orangered">
+                  {{item.price}}
+                </div>
+                <div class="dealcount" style="float: right; vertical-align: middle">
+                  {{item.number}}
+                </div>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </div>
+      <div *ngSwitchCase="'serve'" class="mselect-serve">
+        <ion-card *ngFor="let item of serveListThree">
+          <ion-row>
+            <ion-col width-33>
+              <ion-thumbnail class="img-box" [ngStyle]="{ 'background-image': 'url(' + item.image + ')'}">
+              </ion-thumbnail>
+            </ion-col>
+
+            <ion-col width-67 style="position: relative">
+              <h2 style="text-align: left">{{item.title}}</h2>
+              <p style="color: rgba(34, 34, 34, 0.79);">
+                {{item.des}}
+              </p>
+              <div style="position: absolute; bottom: 10px; width: 95% ;height: 30px; line-height: 30px">
+                <div style="float: left; vertical-align: middle;color: orangered">
+                  {{item.price}}
+                </div>
+                <div class="dealcount" style="float: right; vertical-align: middle">
+                  {{item.number}}
+                </div>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </div>
+
+    </div>
+  </div>
+
+</ion-content>
