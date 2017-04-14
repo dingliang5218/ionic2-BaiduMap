@@ -51,6 +51,10 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <chcp>
+        <local-development enabled="true" />
+        <config-file url="" />
+    </chcp>
     <allow-intent href="market:*" />
     <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
     <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />

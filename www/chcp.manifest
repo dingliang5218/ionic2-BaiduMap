@@ -172,6 +172,26 @@
     "hash": "3cdbf480d4dabb2b8098c4dd409b588a"
   },
   {
+    "file": "build/echarts.min.js",
+    "hash": "2167653d32769da2556d8e7b69abcfc7"
+  },
+  {
+    "file": "build/main.css",
+    "hash": "f1c2028c512e7de67f2d9bcdefe87d86"
+  },
+  {
+    "file": "build/main.js",
+    "hash": "164bfb72615bd3d51b5222119a8fb831"
+  },
+  {
+    "file": "build/polyfills.js",
+    "hash": "54b84bad1cf1a28db7e8b8d74e349324"
+  },
+  {
+    "file": "build/sw-toolbox.js",
+    "hash": "e7e54a466864d42dcccc8c3f80a91d1f"
+  },
+  {
     "file": "index.html",
     "hash": "667ab8b37ddaf6358020ae87f0d4bb77"
   },
