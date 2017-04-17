@@ -108,6 +108,6 @@
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
   <chcp>
     <local-development enabled="true"></local-development>
-    <config-file url=""></config-file>
+    <config-file url="https://github.com/dingliang5218/ionic2-BaiduMap/tree/master/www/chcp.json"></config-file>
   </chcp>
 </widget>

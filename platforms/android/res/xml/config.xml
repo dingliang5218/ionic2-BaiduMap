@@ -53,7 +53,7 @@
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
     <chcp>
         <local-development enabled="true" />
-        <config-file url="" />
+        <config-file url="https://github.com/dingliang5218/ionic2-BaiduMap/tree/master/www/chcp.json" />
     </chcp>
     <allow-intent href="market:*" />
     <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
